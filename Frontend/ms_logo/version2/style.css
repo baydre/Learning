@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: azure;
+}
+
+/* Creating microsoft-logo using Box-shadow */
+.microsoft-logo {
+    background-color: #f25022;
+    box-shadow: 
+            220px 0 0 0 #7fba00,
+            0 220px 0 0 #00a4ef,
+            220px 220px 0 0 #ffb900;
+    height: 200px;
+    width: 200px;
+}
